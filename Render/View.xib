@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbz-eZ-PNG">
+                    <rect key="frame" x="10" y="67" width="424" height="21"/>
+                    <color key="backgroundColor" red="1" green="0.32044992180313581" blue="0.66176909498261349" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="auy-Qf-piR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NW5-of-2fj">
+                    <rect key="frame" x="10" y="29" width="580" height="21"/>
+                    <color key="backgroundColor" red="0.80861533149171272" green="0.80861533149171272" blue="0.80861533149171272" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="oHO-lH-HRu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJm-Rd-Fo9">
+                    <rect key="frame" x="10" y="98" width="424" height="21"/>
+                    <color key="backgroundColor" red="1" green="0.32044992179999998" blue="0.66176909500000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Y5G-0S-hQq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRb-mZ-uuG">
+                    <rect key="frame" x="10" y="131" width="424" height="21"/>
+                    <color key="backgroundColor" red="1" green="0.32044992179999998" blue="0.66176909500000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="D0p-at-Khp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nuA-vM-1aW">
+                    <rect key="frame" x="442" y="58" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="L04-3c-T02"/>
+                        <constraint firstAttribute="height" constant="150" id="Swf-JD-GWL"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kih-j2-GpK">
+                    <rect key="frame" x="10" y="160" width="100" height="51"/>
+                    <color key="backgroundColor" red="0.96147454204912652" green="0.72106607546747847" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="jVR-SB-qXk"/>
+                        <constraint firstAttribute="height" constant="51" id="uZb-5j-lFr"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+                <slider opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Oac-cK-kK2">
+                    <rect key="frame" x="8" y="219" width="423" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="cI8-Zx-DBh"/>
+                    </constraints>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" red="0.99108681674306676" green="1" blue="0.71556834197526165" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="vJm-Rd-Fo9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="1o7-Mc-pNU"/>
+                <constraint firstItem="Oac-cK-kK2" firstAttribute="top" secondItem="kih-j2-GpK" secondAttribute="bottom" constant="8" id="23q-mk-o8q"/>
+                <constraint firstItem="vJm-Rd-Fo9" firstAttribute="top" secondItem="Hbz-eZ-PNG" secondAttribute="bottom" constant="10" id="6Ng-6V-ttt"/>
+                <constraint firstItem="Hbz-eZ-PNG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="B7y-nV-gbS"/>
+                <constraint firstAttribute="trailing" secondItem="nuA-vM-1aW" secondAttribute="trailing" constant="8" id="C4q-v6-YGx"/>
+                <constraint firstItem="kih-j2-GpK" firstAttribute="top" secondItem="mRb-mZ-uuG" secondAttribute="bottom" constant="8" id="FdM-kc-dZl"/>
+                <constraint firstItem="nuA-vM-1aW" firstAttribute="leading" secondItem="Hbz-eZ-PNG" secondAttribute="trailing" constant="8" id="M8Q-x4-X86"/>
+                <constraint firstItem="Oac-cK-kK2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="MJY-oP-4ww"/>
+                <constraint firstItem="nuA-vM-1aW" firstAttribute="top" secondItem="NW5-of-2fj" secondAttribute="bottom" constant="8" id="N6D-Rc-Hn7"/>
+                <constraint firstItem="nuA-vM-1aW" firstAttribute="leading" secondItem="vJm-Rd-Fo9" secondAttribute="trailing" constant="8" id="O9l-kw-9bm"/>
+                <constraint firstItem="NW5-of-2fj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Pg2-RZ-VO2"/>
+                <constraint firstItem="mRb-mZ-uuG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="T8Y-ff-ozI"/>
+                <constraint firstItem="Hbz-eZ-PNG" firstAttribute="top" secondItem="NW5-of-2fj" secondAttribute="bottom" constant="17" id="Y1u-Iy-9dc"/>
+                <constraint firstItem="kih-j2-GpK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Z6L-0n-Ogh"/>
+                <constraint firstAttribute="trailing" secondItem="NW5-of-2fj" secondAttribute="trailing" constant="10" id="bFE-Ic-DFM"/>
+                <constraint firstItem="nuA-vM-1aW" firstAttribute="leading" secondItem="Oac-cK-kK2" secondAttribute="trailing" constant="13" id="bGi-Cc-Jvg"/>
+                <constraint firstItem="NW5-of-2fj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="29" id="eAX-1I-oqE"/>
+                <constraint firstItem="mRb-mZ-uuG" firstAttribute="top" secondItem="vJm-Rd-Fo9" secondAttribute="bottom" constant="12" id="kCR-Xk-oUC"/>
+                <constraint firstItem="nuA-vM-1aW" firstAttribute="leading" secondItem="mRb-mZ-uuG" secondAttribute="trailing" constant="8" id="qUl-yh-l1W"/>
+            </constraints>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="7fu-oN-DOJ" appends="YES" id="MXP-sz-02K"/>
+                <outletCollection property="gestureRecognizers" destination="afq-RZ-TRR" appends="YES" id="xVX-cm-iQ4"/>
+            </connections>
+            <point key="canvasLocation" x="334" y="303"/>
+        </view>
+        <tapGestureRecognizer id="7fu-oN-DOJ" userLabel="tap"/>
+        <tapGestureRecognizer id="afq-RZ-TRR"/>
+    </objects>
+</document>
